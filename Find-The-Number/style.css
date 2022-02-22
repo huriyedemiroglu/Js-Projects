@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@keyframes renk {
+  0% {
+    color: red;
+  }
+  12% {
+    color: fuchsia;
+  }
+  25% {
+    color: rgb(255, 5, 180);
+  }
+  37% {
+    color: rgb(128, 5, 168);
+  }
+  50% {
+    color: rgb(2, 229, 254);
+  }
+  50% {
+    color: rgb(252, 215, 5);
+  }
+  75% {
+    color: rgb(1, 254, 1);
+  }
+  87% {
+    color: rgb(77, 1, 254);
+  }
+  100% {
+    color: red;
+  }
+  /* from {background-color: rgb(5, 252, 33);}
+  to {background-color: blue;} */
+}
+
+body {
+  /* background-image: url('./image1.jpg');     */
+  background-color: rgb(91, 91, 189);
+}
+.container {
+  border-radius: 20px;
+  background-color: aliceblue;
+  margin: 2% auto;
+  width: 40%;
+  height: 70%;
+}
+h1 {
+  animation-name: renk;
+  animation-duration: 3s;
+  animation-delay: 1s;
+  animation-iteration-count: infinite;
+
+  padding-top: 10%;
+  width: 100%;
+  text-align: center;
+}
+.numbers {
+  width: 100%;
+  text-align: center;
+  margin-top: 5%;
+}
+#number {
+  height: 30px;
+  border-radius: 5px;
+}
+#check {
+  height: 30px;
+  border-radius: 5px;
+  width: 75px;
+  background-color: blue;
+  color: aliceblue;
+}
+.text {
+  margin-top: 5%;
+  width: 100%;
+  text-align: center;
+}
+h4 {
+  margin: 2%;
+  text-align: center;
+}
+#count {
+  font-size: large;
+  padding-bottom: 10%;
+}
+.img {
+  height: 100%;
+  visibility: hidden;
+  display: flex;
+  justify-content: center;
+  margin-top: 3%;
+}
+.img img {
+  border-radius: 20px;
+  width: 300px;
+  height: 300px;
+}
